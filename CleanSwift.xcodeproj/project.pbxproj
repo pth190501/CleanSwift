@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27343FDD2C90336B0098B0E6 /* TestPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27343FD52C90336B0098B0E6 /* TestPresenter.swift */; };
+		27343FDE2C90336B0098B0E6 /* TestWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27343FD62C90336B0098B0E6 /* TestWorker.swift */; };
+		27343FDF2C90336B0098B0E6 /* TestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27343FD72C90336B0098B0E6 /* TestRouter.swift */; };
+		27343FE02C90336B0098B0E6 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27343FD82C90336B0098B0E6 /* TestViewController.swift */; };
+		27343FE12C90336B0098B0E6 /* TestInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27343FD92C90336B0098B0E6 /* TestInteractor.swift */; };
+		27343FE22C90336B0098B0E6 /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27343FDA2C90336B0098B0E6 /* TestViewModel.swift */; };
+		27343FE32C90336B0098B0E6 /* TestConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27343FDB2C90336B0098B0E6 /* TestConfigurator.swift */; };
+		27343FE42C90336B0098B0E6 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27343FDC2C90336B0098B0E6 /* TestViewController.xib */; };
 		27CC0E052B157CCB00B492D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CC0E042B157CCB00B492D6 /* AppDelegate.swift */; };
 		27CC0E092B157CCB00B492D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CC0E082B157CCB00B492D6 /* ViewController.swift */; };
 		27CC0E0C2B157CCB00B492D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27CC0E0A2B157CCB00B492D6 /* Main.storyboard */; };
@@ -36,6 +44,14 @@
 
 /* Begin PBXFileReference section */
 		1B03678685A543C019AE7F64 /* Pods-CleanSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanSwift.debug.xcconfig"; path = "Target Support Files/Pods-CleanSwift/Pods-CleanSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		27343FD52C90336B0098B0E6 /* TestPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPresenter.swift; sourceTree = "<group>"; };
+		27343FD62C90336B0098B0E6 /* TestWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWorker.swift; sourceTree = "<group>"; };
+		27343FD72C90336B0098B0E6 /* TestRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRouter.swift; sourceTree = "<group>"; };
+		27343FD82C90336B0098B0E6 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		27343FD92C90336B0098B0E6 /* TestInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInteractor.swift; sourceTree = "<group>"; };
+		27343FDA2C90336B0098B0E6 /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
+		27343FDB2C90336B0098B0E6 /* TestConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConfigurator.swift; sourceTree = "<group>"; };
+		27343FDC2C90336B0098B0E6 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 		27CC0E012B157CCB00B492D6 /* CleanSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27CC0E042B157CCB00B492D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27CC0E082B157CCB00B492D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +94,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27343FD42C90335E0098B0E6 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				27343FD52C90336B0098B0E6 /* TestPresenter.swift */,
+				27343FD62C90336B0098B0E6 /* TestWorker.swift */,
+				27343FD72C90336B0098B0E6 /* TestRouter.swift */,
+				27343FD82C90336B0098B0E6 /* TestViewController.swift */,
+				27343FD92C90336B0098B0E6 /* TestInteractor.swift */,
+				27343FDA2C90336B0098B0E6 /* TestViewModel.swift */,
+				27343FDB2C90336B0098B0E6 /* TestConfigurator.swift */,
+				27343FDC2C90336B0098B0E6 /* TestViewController.xib */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		27CC0DF82B157CCB00B492D6 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +130,7 @@
 		27CC0E032B157CCB00B492D6 /* CleanSwift */ = {
 			isa = PBXGroup;
 			children = (
+				27343FD42C90335E0098B0E6 /* Test */,
 				27CC0E292B157E2000B492D6 /* SecondVC */,
 				27CC0E182B157CE200B492D6 /* FirstVC */,
 				27CC0E042B157CCB00B492D6 /* AppDelegate.swift */,
@@ -242,6 +274,7 @@
 				27CC0E0C2B157CCB00B492D6 /* Main.storyboard in Resources */,
 				27CC0E282B157CF200B492D6 /* FirstViewController.xib in Resources */,
 				27CC0E392B157E3D00B492D6 /* SecondViewController.xib in Resources */,
+				27343FE42C90336B0098B0E6 /* TestViewController.xib in Resources */,
 				27CC0E452B15DD7A00B492D6 /* LanguageTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,17 +330,24 @@
 			files = (
 				27CC0E222B157CF200B492D6 /* FirstWorker.swift in Sources */,
 				27CC0E342B157E3D00B492D6 /* SecondRouter.swift in Sources */,
+				27343FE32C90336B0098B0E6 /* TestConfigurator.swift in Sources */,
+				27343FE02C90336B0098B0E6 /* TestViewController.swift in Sources */,
 				27CC0E362B157E3D00B492D6 /* SecondInteractor.swift in Sources */,
 				27CC0E442B15DD7A00B492D6 /* LanguageTableViewCell.swift in Sources */,
 				27CC0E092B157CCB00B492D6 /* ViewController.swift in Sources */,
 				27CC0E322B157E3D00B492D6 /* SecondPresenter.swift in Sources */,
 				27CC0E402B159E2000B492D6 /* TextEntity.swift in Sources */,
+				27343FDD2C90336B0098B0E6 /* TestPresenter.swift in Sources */,
 				27CC0E352B157E3D00B492D6 /* SecondViewController.swift in Sources */,
+				27343FE12C90336B0098B0E6 /* TestInteractor.swift in Sources */,
+				27343FDE2C90336B0098B0E6 /* TestWorker.swift in Sources */,
 				27CC0E052B157CCB00B492D6 /* AppDelegate.swift in Sources */,
+				27343FDF2C90336B0098B0E6 /* TestRouter.swift in Sources */,
 				27CC0E252B157CF200B492D6 /* FirstInteractor.swift in Sources */,
 				27CC0E372B157E3D00B492D6 /* SecondViewModel.swift in Sources */,
 				27CC0E382B157E3D00B492D6 /* SecondConfigurator.swift in Sources */,
 				27CC0E212B157CF200B492D6 /* FirstPresenter.swift in Sources */,
+				27343FE22C90336B0098B0E6 /* TestViewModel.swift in Sources */,
 				27CC0E232B157CF200B492D6 /* FirstRouter.swift in Sources */,
 				27CC0E262B157CF200B492D6 /* FirstViewModel.swift in Sources */,
 				27CC0E242B157CF200B492D6 /* FirstViewController.swift in Sources */,

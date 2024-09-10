@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func tapBtn(_ sender: Any) {
-        let vc = FirstViewController()
+        let vc = TestViewController()
         vc.modalPresentationStyle = .fullScreen
         self.navigationController?.pushViewController(vc, animated: true)
     }
